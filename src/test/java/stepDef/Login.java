@@ -13,7 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class Login extends env_target {
-
     @Given("User is on login page")
     public void user_is_on_login_page() {
         driver = new ChromeDriver();
